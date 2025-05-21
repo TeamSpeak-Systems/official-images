@@ -1,10 +1,29 @@
-# maintainer: InfoSiftr <github@infosiftr.com> (@infosiftr)
+# this file is generated via https://github.com/docker-library/mysql/blob/6faf41e2e9d9d0a2b97d83449830ca75cbee17f9/generate-stackbrew-library.sh
 
-5.6.20: git://github.com/docker-library/docker-mysql@8f83313be73c8c294109d038aa2f921f6886b21c 5.6
-5.6: git://github.com/docker-library/docker-mysql@8f83313be73c8c294109d038aa2f921f6886b21c 5.6
-5: git://github.com/docker-library/docker-mysql@8f83313be73c8c294109d038aa2f921f6886b21c 5.6
-latest: git://github.com/docker-library/docker-mysql@8f83313be73c8c294109d038aa2f921f6886b21c 5.6
+Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
+             Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
+GitRepo: https://github.com/docker-library/mysql.git
 
-5.7.4-m14: git://github.com/docker-library/docker-mysql@8f83313be73c8c294109d038aa2f921f6886b21c 5.7
-5.7.4: git://github.com/docker-library/docker-mysql@8f83313be73c8c294109d038aa2f921f6886b21c 5.7
-5.7: git://github.com/docker-library/docker-mysql@8f83313be73c8c294109d038aa2f921f6886b21c 5.7
+Tags: 9.3.0, 9.3, 9, innovation, latest, 9.3.0-oraclelinux9, 9.3-oraclelinux9, 9-oraclelinux9, innovation-oraclelinux9, oraclelinux9, 9.3.0-oracle, 9.3-oracle, 9-oracle, innovation-oracle, oracle
+Architectures: amd64, arm64v8
+GitCommit: 1b9d0c10ad8569c9419d76aacec9dbab23c48e9e
+Directory: innovation
+File: Dockerfile.oracle
+
+Tags: 8.4.5, 8.4, 8, lts, 8.4.5-oraclelinux9, 8.4-oraclelinux9, 8-oraclelinux9, lts-oraclelinux9, 8.4.5-oracle, 8.4-oracle, 8-oracle, lts-oracle
+Architectures: amd64, arm64v8
+GitCommit: 8ade9b2c9a32a79fbaa44b564d09a40744f1d105
+Directory: 8.4
+File: Dockerfile.oracle
+
+Tags: 8.0.42, 8.0, 8.0.42-oraclelinux9, 8.0-oraclelinux9, 8.0.42-oracle, 8.0-oracle
+Architectures: amd64, arm64v8
+GitCommit: 94583e54d3bc02af523af720fdd58f8215287da9
+Directory: 8.0
+File: Dockerfile.oracle
+
+Tags: 8.0.42-bookworm, 8.0-bookworm, 8.0.42-debian, 8.0-debian
+Architectures: amd64
+GitCommit: 94583e54d3bc02af523af720fdd58f8215287da9
+Directory: 8.0
+File: Dockerfile.debian

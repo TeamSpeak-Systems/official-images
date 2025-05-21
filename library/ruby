@@ -1,21 +1,125 @@
-# maintainer: InfoSiftr <github@infosiftr.com> (@infosiftr)
+# this file is generated via https://github.com/docker-library/ruby/blob/2895a675d1b1690faab2105c56aa0e14f6865ff2/generate-stackbrew-library.sh
 
-1.9.3-p547: git://github.com/docker-library/ruby@2701609004b336feff4e88e73ef32e8700d1c668 1.9
-1.9.3: git://github.com/docker-library/ruby@2701609004b336feff4e88e73ef32e8700d1c668 1.9
-1.9: git://github.com/docker-library/ruby@2701609004b336feff4e88e73ef32e8700d1c668 1.9
-1: git://github.com/docker-library/ruby@2701609004b336feff4e88e73ef32e8700d1c668 1.9
+Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
+             Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
+GitRepo: https://github.com/docker-library/ruby.git
 
-1.9.3-p547-onbuild: git://github.com/docker-library/ruby@4938a7b4b5b62c90b5d387c9c286fd7749d9499e 1.9/onbuild
-1.9.3-onbuild: git://github.com/docker-library/ruby@4938a7b4b5b62c90b5d387c9c286fd7749d9499e 1.9/onbuild
-1.9-onbuild: git://github.com/docker-library/ruby@4938a7b4b5b62c90b5d387c9c286fd7749d9499e 1.9/onbuild
-1-onbuild: git://github.com/docker-library/ruby@4938a7b4b5b62c90b5d387c9c286fd7749d9499e 1.9/onbuild
+Tags: 3.5.0-preview1-bookworm, 3.5-rc-bookworm, 3.5.0-preview1, 3.5-rc
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: f0bf5f365387703579af740f915b6f32c4ee4c28
+Directory: 3.5-rc/bookworm
 
-2.1.2: git://github.com/docker-library/ruby@2701609004b336feff4e88e73ef32e8700d1c668 2.1
-2.1: git://github.com/docker-library/ruby@2701609004b336feff4e88e73ef32e8700d1c668 2.1
-2: git://github.com/docker-library/ruby@2701609004b336feff4e88e73ef32e8700d1c668 2.1
-latest: git://github.com/docker-library/ruby@2701609004b336feff4e88e73ef32e8700d1c668 2.1
+Tags: 3.5.0-preview1-slim-bookworm, 3.5-rc-slim-bookworm, 3.5.0-preview1-slim, 3.5-rc-slim
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: f0bf5f365387703579af740f915b6f32c4ee4c28
+Directory: 3.5-rc/slim-bookworm
 
-2.1.2-onbuild: git://github.com/docker-library/ruby@4e94b39f5b76645819639e22d8de471c8fbd9855 2.1/onbuild
-2.1-onbuild: git://github.com/docker-library/ruby@4e94b39f5b76645819639e22d8de471c8fbd9855 2.1/onbuild
-2-onbuild: git://github.com/docker-library/ruby@4e94b39f5b76645819639e22d8de471c8fbd9855 2.1/onbuild
-onbuild: git://github.com/docker-library/ruby@4e94b39f5b76645819639e22d8de471c8fbd9855 2.1/onbuild
+Tags: 3.5.0-preview1-bullseye, 3.5-rc-bullseye
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: f0bf5f365387703579af740f915b6f32c4ee4c28
+Directory: 3.5-rc/bullseye
+
+Tags: 3.5.0-preview1-slim-bullseye, 3.5-rc-slim-bullseye
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: f0bf5f365387703579af740f915b6f32c4ee4c28
+Directory: 3.5-rc/slim-bullseye
+
+Tags: 3.5.0-preview1-alpine3.21, 3.5-rc-alpine3.21, 3.5.0-preview1-alpine, 3.5-rc-alpine
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: f0bf5f365387703579af740f915b6f32c4ee4c28
+Directory: 3.5-rc/alpine3.21
+
+Tags: 3.5.0-preview1-alpine3.20, 3.5-rc-alpine3.20
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: f0bf5f365387703579af740f915b6f32c4ee4c28
+Directory: 3.5-rc/alpine3.20
+
+Tags: 3.4.3-bookworm, 3.4-bookworm, 3-bookworm, bookworm, 3.4.3, 3.4, 3, latest
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: 235b3ffb2060c837137b32ea55f75816f2f4e4c4
+Directory: 3.4/bookworm
+
+Tags: 3.4.3-slim-bookworm, 3.4-slim-bookworm, 3-slim-bookworm, slim-bookworm, 3.4.3-slim, 3.4-slim, 3-slim, slim
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: 235b3ffb2060c837137b32ea55f75816f2f4e4c4
+Directory: 3.4/slim-bookworm
+
+Tags: 3.4.3-bullseye, 3.4-bullseye, 3-bullseye, bullseye
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: 235b3ffb2060c837137b32ea55f75816f2f4e4c4
+Directory: 3.4/bullseye
+
+Tags: 3.4.3-slim-bullseye, 3.4-slim-bullseye, 3-slim-bullseye, slim-bullseye
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: 235b3ffb2060c837137b32ea55f75816f2f4e4c4
+Directory: 3.4/slim-bullseye
+
+Tags: 3.4.3-alpine3.21, 3.4-alpine3.21, 3-alpine3.21, alpine3.21, 3.4.3-alpine, 3.4-alpine, 3-alpine, alpine
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: 235b3ffb2060c837137b32ea55f75816f2f4e4c4
+Directory: 3.4/alpine3.21
+
+Tags: 3.4.3-alpine3.20, 3.4-alpine3.20, 3-alpine3.20, alpine3.20
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: 235b3ffb2060c837137b32ea55f75816f2f4e4c4
+Directory: 3.4/alpine3.20
+
+Tags: 3.3.8-bookworm, 3.3-bookworm, 3.3.8, 3.3
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: fd391a024df0e026b289e60e7bf1ed8db0c41e48
+Directory: 3.3/bookworm
+
+Tags: 3.3.8-slim-bookworm, 3.3-slim-bookworm, 3.3.8-slim, 3.3-slim
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: fd391a024df0e026b289e60e7bf1ed8db0c41e48
+Directory: 3.3/slim-bookworm
+
+Tags: 3.3.8-bullseye, 3.3-bullseye
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: fd391a024df0e026b289e60e7bf1ed8db0c41e48
+Directory: 3.3/bullseye
+
+Tags: 3.3.8-slim-bullseye, 3.3-slim-bullseye
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: fd391a024df0e026b289e60e7bf1ed8db0c41e48
+Directory: 3.3/slim-bullseye
+
+Tags: 3.3.8-alpine3.21, 3.3-alpine3.21, 3.3.8-alpine, 3.3-alpine
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: fd391a024df0e026b289e60e7bf1ed8db0c41e48
+Directory: 3.3/alpine3.21
+
+Tags: 3.3.8-alpine3.20, 3.3-alpine3.20
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: fd391a024df0e026b289e60e7bf1ed8db0c41e48
+Directory: 3.3/alpine3.20
+
+Tags: 3.2.8-bookworm, 3.2-bookworm, 3.2.8, 3.2
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: 00121708b79e89ee4c477dbae3035467ebe2484e
+Directory: 3.2/bookworm
+
+Tags: 3.2.8-slim-bookworm, 3.2-slim-bookworm, 3.2.8-slim, 3.2-slim
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: 00121708b79e89ee4c477dbae3035467ebe2484e
+Directory: 3.2/slim-bookworm
+
+Tags: 3.2.8-bullseye, 3.2-bullseye
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: 00121708b79e89ee4c477dbae3035467ebe2484e
+Directory: 3.2/bullseye
+
+Tags: 3.2.8-slim-bullseye, 3.2-slim-bullseye
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: 00121708b79e89ee4c477dbae3035467ebe2484e
+Directory: 3.2/slim-bullseye
+
+Tags: 3.2.8-alpine3.21, 3.2-alpine3.21, 3.2.8-alpine, 3.2-alpine
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: 00121708b79e89ee4c477dbae3035467ebe2484e
+Directory: 3.2/alpine3.21
+
+Tags: 3.2.8-alpine3.20, 3.2-alpine3.20
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: 00121708b79e89ee4c477dbae3035467ebe2484e
+Directory: 3.2/alpine3.20

@@ -1,0 +1,13 @@
+Maintainers: Jake Newton <docker@liquibase.com> (@jnewton03)
+Architectures: arm64v8, amd64
+GitRepo: https://github.com/liquibase/docker.git
+
+Tags: 4.31, 4.31.1, latest
+GitFetch: refs/heads/main
+GitCommit: 721daba2f67968383d82ce61e2f6891f444685ee
+File: Dockerfile
+
+Tags: 4.31-alpine, 4.31.1-alpine, alpine
+GitFetch: refs/heads/main
+GitCommit: 721daba2f67968383d82ce61e2f6891f444685ee
+File: Dockerfile.alpine

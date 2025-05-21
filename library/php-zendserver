@@ -1,0 +1,6 @@
+Maintainers: Heigo Sinilind <hsinilind@perforce.com> (@hsinilind),
+             Rain Viigipuu <rviigipuu@perforce.com> (@rainviigipuu)
+GitRepo: https://github.com/zendtech/php-zendserver-docker.git
+GitCommit: bcd65b82acb4f3b5b67f8c657c52f08bc52d8789
+
+# https://github.com/docker-library/docs/pull/2475

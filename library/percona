@@ -1,0 +1,28 @@
+Maintainers: Evgeniy Patlan <evgeniy.patlan@percona.com> (@EvgeniyPatlan),
+             Viacheslav Sarzhan <slava.sarzhan@percona.com> (@hors),
+             Oleksandr Miroshnychenko <alex.miroshnychenko@percona.com> (@vorsel),
+             Vadim Yalovets <vadim.yalovets@percona.com> (@adivinho),
+             Surabhi Bhat <surabhi.bhat@percona.com> (@surbhat1595)
+GitRepo: https://github.com/percona/percona-docker.git
+GitFetch: refs/heads/main
+Architectures: amd64
+
+Tags: 8.0.41-32-centos, 8.0-centos, 8-centos, 8.0.41-32, 8.0, 8, ps-8.0.41-32, ps-8.0, ps-8
+GitCommit: 73ddc25d7165fa77bda3e92191ec2fc5536c500a
+Directory: percona-server-8.0
+File: Dockerfile-dockerhub
+
+Tags: psmdb-8.0.4, psmdb-8.0
+GitCommit: 01836bbd1b62ad6ee28226986b2d7fff660523b6
+Directory: percona-server-mongodb-8.0
+File: Dockerfile-dockerhub
+
+Tags: psmdb-7.0.16, psmdb-7.0
+GitCommit: 01836bbd1b62ad6ee28226986b2d7fff660523b6
+Directory: percona-server-mongodb-7.0
+File: Dockerfile-dockerhub
+
+Tags: psmdb-6.0.21, psmdb-6.0
+GitCommit: 01836bbd1b62ad6ee28226986b2d7fff660523b6
+Directory: percona-server-mongodb-6.0
+File: Dockerfile-dockerhub

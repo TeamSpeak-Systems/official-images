@@ -1,0 +1,21 @@
+#ibmjava official images
+
+Maintainers: Jayashree Gopi <jayasg12@in.ibm.com> (@jayasg12)
+GitRepo: https://github.com/ibmruntimes/ci.docker.git
+GitFetch: refs/heads/main
+
+Tags: 8-jre, jre, 8, latest
+Architectures: amd64, ppc64le, s390x
+GitCommit: 00a17cb73f516a49cd3c0aae3d92c9fd9c74f7aa
+Directory: ibmjava/8/jre/ubuntu
+
+Tags: 8-sfj, sfj
+Architectures: amd64, ppc64le, s390x
+GitCommit: 00a17cb73f516a49cd3c0aae3d92c9fd9c74f7aa
+Directory: ibmjava/8/sfj/ubuntu
+
+Tags: 8-sdk, sdk
+Architectures: amd64, ppc64le, s390x
+GitCommit: 00a17cb73f516a49cd3c0aae3d92c9fd9c74f7aa
+Directory: ibmjava/8/sdk/ubuntu
+

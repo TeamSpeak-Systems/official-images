@@ -1,0 +1,62 @@
+# this file is generated via https://github.com/MariaDB/mariadb-docker/blob/58570c6f1988c033d052ea1442675f637d881706/generate-stackbrew-library.sh
+
+Maintainers: Daniel Black <daniel@mariadb.org> (@grooverdan),
+             Daniel Bartholomew <dbart@mariadb.com> (@dbart),
+             Faustin Lammler <faustin@mariadb.org> (@fauust)
+GitRepo: https://github.com/MariaDB/mariadb-docker.git
+Builder: buildkit
+
+Tags: 11.8.1-ubi9-rc, 11.8-ubi9-rc, 11.8.1-ubi-rc, 11.8-ubi-rc
+Architectures: amd64, arm64v8, s390x, ppc64le
+GitCommit: 2d5103917774c4c53ec6bf3c6fdfc7b210e85690
+Directory: 11.8-ubi
+
+Tags: 11.8.1-noble-rc, 11.8-noble-rc, 11.8.1-rc, 11.8-rc
+Architectures: amd64, arm64v8, ppc64le, s390x
+GitCommit: 2d5103917774c4c53ec6bf3c6fdfc7b210e85690
+Directory: 11.8
+
+Tags: 11.7.2-ubi9, 11.7-ubi9, 11-ubi9, 11.7.2-ubi, 11.7-ubi, 11-ubi
+Architectures: amd64, arm64v8, s390x, ppc64le
+GitCommit: 853447019725b35685d5ec3c007096a266399bea
+Directory: 11.7-ubi
+
+Tags: 11.7.2-noble, 11.7-noble, 11-noble, noble, 11.7.2, 11.7, 11, latest
+Architectures: amd64, arm64v8, ppc64le, s390x
+GitCommit: 853447019725b35685d5ec3c007096a266399bea
+Directory: 11.7
+
+Tags: 11.4.5-ubi9, 11.4-ubi9, lts-ubi9, 11.4.5-ubi, 11.4-ubi, lts-ubi
+Architectures: amd64, arm64v8, s390x, ppc64le
+GitCommit: 3bfeae408bde492aad0444cbb13d55a70ceec6e5
+Directory: 11.4-ubi
+
+Tags: 11.4.5-noble, 11.4-noble, lts-noble, 11.4.5, 11.4, lts
+Architectures: amd64, arm64v8, ppc64le, s390x
+GitCommit: 3bfeae408bde492aad0444cbb13d55a70ceec6e5
+Directory: 11.4
+
+Tags: 10.11.11-ubi9, 10.11-ubi9, 10-ubi9, 10.11.11-ubi, 10.11-ubi, 10-ubi
+Architectures: amd64, arm64v8, s390x, ppc64le
+GitCommit: 3bfeae408bde492aad0444cbb13d55a70ceec6e5
+Directory: 10.11-ubi
+
+Tags: 10.11.11-jammy, 10.11-jammy, 10-jammy, 10.11.11, 10.11, 10
+Architectures: amd64, arm64v8, ppc64le, s390x
+GitCommit: 3bfeae408bde492aad0444cbb13d55a70ceec6e5
+Directory: 10.11
+
+Tags: 10.6.21-ubi9, 10.6-ubi9, 10.6.21-ubi, 10.6-ubi
+Architectures: amd64, arm64v8, s390x, ppc64le
+GitCommit: 3bfeae408bde492aad0444cbb13d55a70ceec6e5
+Directory: 10.6-ubi
+
+Tags: 10.6.21-focal, 10.6-focal, 10.6.21, 10.6
+Architectures: amd64, arm64v8, ppc64le, s390x
+GitCommit: 3bfeae408bde492aad0444cbb13d55a70ceec6e5
+Directory: 10.6
+
+Tags: 10.5.28-focal, 10.5-focal, 10.5.28, 10.5
+Architectures: amd64, arm64v8, ppc64le, s390x
+GitCommit: 3bfeae408bde492aad0444cbb13d55a70ceec6e5
+Directory: 10.5

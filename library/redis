@@ -1,22 +1,48 @@
-# maintainer: InfoSiftr <github@infosiftr.com> (@infosiftr)
+Maintainers: Adam Ben Shmuel <adam.ben-shmuel@redis.com> (@adamiBs),
+             Yossi Gottlieb <yossi@redis.com> (@yossigo),
+             Alexander Dobrzhansky <alexander.dobrzhansky@redis.com> (@adobrzhansky),
+             Max Berkman <max.berkman@redis.com> (@maxb-io),
+             Dagan Sandler <dagan.sandler@redis.com> (@dagansandler)
+GitRepo: https://github.com/redis/docker-library-redis.git
 
-2.6.17: git://github.com/docker-library/redis@02d9cd887a4e0d50db4bb085eab7235115a6fe4a 2.6.17
-2.6: git://github.com/docker-library/redis@02d9cd887a4e0d50db4bb085eab7235115a6fe4a 2.6.17
+Tags: 8.0.0, 8.0, 8, 8.0.0-bookworm, 8.0-bookworm, 8-bookworm, latest, bookworm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: 7fc7e5625cd84b832db85561cb73b1bef78583fa
+GitFetch: refs/heads/release/8.0
+Directory: debian
 
-2.8.10: git://github.com/docker-library/redis@ffb29617e5dcfe71adf67842d18063c410beede7 2.8.10
+Tags: 8.0.0-alpine, 8.0-alpine, 8-alpine, 8.0.0-alpine3.21, 8.0-alpine3.21, 8-alpine3.21, alpine, alpine3.21
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: 7fc7e5625cd84b832db85561cb73b1bef78583fa
+GitFetch: refs/heads/release/8.0
+Directory: alpine
 
-2.8.11: git://github.com/docker-library/redis@ffb29617e5dcfe71adf67842d18063c410beede7 2.8.11
+Tags: 7.4.3, 7.4, 7, 7.4.3-bookworm, 7.4-bookworm, 7-bookworm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: 27cd071c3e9d903a19c79577ddb82fb322ef5ed6
+Directory: 7.4/debian
 
-2.8.12: git://github.com/docker-library/redis@ffb29617e5dcfe71adf67842d18063c410beede7 2.8.12
+Tags: 7.4.3-alpine, 7.4-alpine, 7-alpine, 7.4.3-alpine3.21, 7.4-alpine3.21, 7-alpine3.21
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: 27cd071c3e9d903a19c79577ddb82fb322ef5ed6
+Directory: 7.4/alpine
 
-2.8.13: git://github.com/docker-library/redis@d0665bb1bbddd4cc035dbc1fc774695fa534d648 2.8.13
-2.8: git://github.com/docker-library/redis@d0665bb1bbddd4cc035dbc1fc774695fa534d648 2.8.13
-latest: git://github.com/docker-library/redis@d0665bb1bbddd4cc035dbc1fc774695fa534d648 2.8.13
+Tags: 7.2.8, 7.2, 7.2.8-bookworm, 7.2-bookworm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: 27cd071c3e9d903a19c79577ddb82fb322ef5ed6
+Directory: 7.2/debian
 
-2.8.6: git://github.com/docker-library/redis@ffb29617e5dcfe71adf67842d18063c410beede7 2.8.6
+Tags: 7.2.8-alpine, 7.2-alpine, 7.2.8-alpine3.21, 7.2-alpine3.21
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: 27cd071c3e9d903a19c79577ddb82fb322ef5ed6
+Directory: 7.2/alpine
 
-2.8.7: git://github.com/docker-library/redis@ffb29617e5dcfe71adf67842d18063c410beede7 2.8.7
+Tags: 6.2.18, 6.2, 6, 6.2.18-bookworm, 6.2-bookworm, 6-bookworm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: 27cd071c3e9d903a19c79577ddb82fb322ef5ed6
+Directory: 6.2/debian
 
-2.8.8: git://github.com/docker-library/redis@ffb29617e5dcfe71adf67842d18063c410beede7 2.8.8
-
-2.8.9: git://github.com/docker-library/redis@ffb29617e5dcfe71adf67842d18063c410beede7 2.8.9
+Tags: 6.2.18-alpine, 6.2-alpine, 6-alpine, 6.2.18-alpine3.21, 6.2-alpine3.21, 6-alpine3.21
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: 27cd071c3e9d903a19c79577ddb82fb322ef5ed6
+Directory: 6.2/alpine

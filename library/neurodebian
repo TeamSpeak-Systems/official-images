@@ -1,23 +1,63 @@
-# maintainer: Yaroslav Halchenko <debian@onerussian.com> (@yarikoptic)
+Maintainers: Yaroslav Halchenko <debian@onerussian.com> (@yarikoptic)
+GitRepo: https://github.com/neurodebian/dockerfiles.git
+GitCommit: 89ca52860d80889fd878392a29150e46d9d91a71
 
-lucid: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/lucid
-nd10.04: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/lucid
+Tags: focal, nd20.04
+Architectures: amd64, arm64v8
+Directory: dockerfiles/focal
 
-precise: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/precise
-nd12.04: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/precise
+Tags: focal-non-free, nd20.04-non-free
+Architectures: amd64, arm64v8
+Directory: dockerfiles/focal-non-free
 
-trusty: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/trusty
-nd14.04: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/trusty
+Tags: jammy, nd22.04
+Architectures: amd64, arm64v8
+Directory: dockerfiles/jammy
 
-squeeze: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/squeeze
-nd60: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/squeeze
+Tags: jammy-non-free, nd22.04-non-free
+Architectures: amd64, arm64v8
+Directory: dockerfiles/jammy-non-free
 
-wheezy: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/wheezy
-nd70: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/wheezy
-latest: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/wheezy
+Tags: noble, nd24.04
+Architectures: amd64, arm64v8
+Directory: dockerfiles/noble
 
-jessie: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/jessie
-nd80: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/jessie
+Tags: noble-non-free, nd24.04-non-free
+Architectures: amd64, arm64v8
+Directory: dockerfiles/noble-non-free
 
-sid: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/sid
-nd: git://github.com/neurodebian/dockerfiles@6ee7033cb630b4a72fa3a4a56ad6046405efacdf dockerfiles/sid
+Tags: bullseye, nd110
+Architectures: amd64, arm64v8, i386
+Directory: dockerfiles/bullseye
+
+Tags: bullseye-non-free, nd110-non-free
+Architectures: amd64, arm64v8, i386
+Directory: dockerfiles/bullseye-non-free
+
+Tags: bookworm, nd120, latest
+Architectures: amd64, arm64v8, i386
+Directory: dockerfiles/bookworm
+
+Tags: bookworm-non-free, nd120-non-free, non-free
+Architectures: amd64, arm64v8, i386
+Directory: dockerfiles/bookworm-non-free
+
+#
+# https://github.com/neurodebian/dockerfiles/issues/18
+# https://github.com/neurodebian/neurodebian/issues/97
+#
+#Tags: trixie, nd130
+#Architectures: amd64, arm64v8, i386
+#Directory: dockerfiles/trixie
+#
+#Tags: trixie-non-free, nd130-non-free
+#Architectures: amd64, arm64v8, i386
+#Directory: dockerfiles/trixie-non-free
+#
+#Tags: sid, nd
+#Architectures: amd64, arm64v8, i386
+#Directory: dockerfiles/sid
+#
+#Tags: sid-non-free, nd-non-free
+#Architectures: amd64, arm64v8, i386
+#Directory: dockerfiles/sid-non-free
